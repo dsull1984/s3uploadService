@@ -1,0 +1,24 @@
+{
+  "name": "DatastaxInterviewProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "mocha Test/routes/testRoutes.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.260.1",
+    "body-parser": "^1.18.3",
+    "btoa": "^1.2.1",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "request": "^2.87.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5"
+  }
+}
