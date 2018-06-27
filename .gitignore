@@ -3,3 +3,5 @@ config.js
 .git/
 yarn.lock
 package-*
+yarn-*
+.DS_Store
